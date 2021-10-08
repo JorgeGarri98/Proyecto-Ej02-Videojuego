@@ -1,4 +1,4 @@
-1- Podemos tener varias tipos de personajes (Mago,Guerrero,Curanderos)
+1- Podemos tener varios tipos de personajes (Mago,Guerrero,Curanderos)
 2- Todos podran tener un arma y un nombre, ademas tendran unos puntos
 de vida y un atributo especifico, los magos tendran inteligencia, los
 guerreros tendran fuerza y los Curanderos tendran Sabiduria

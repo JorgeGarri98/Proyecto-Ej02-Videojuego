@@ -1,13 +1,13 @@
 package Videojuego;
 
-public class Guerrero {
+public class Mago {
     private String nombre;
     private Arma arma;
     private int ataque;
     private int vida;
-    private int fuerza = 15;
+    private int inteligencia = 15;
 
-    public Guerrero(String nombre, Arma arma, int ataque, int vida) {
+    public Mago(String nombre, Arma arma, int ataque, int vida) {
         this.nombre = nombre;
         this.arma = arma;
         this.ataque = ataque;
@@ -51,19 +51,17 @@ public class Guerrero {
         this.vida = vida;
     }
 
-    public int getFuerza() {
-        return fuerza;
+    public int getInteligencia() {
+        return inteligencia;
     }
 
-    public void setFuerza(int fuerza) {
-        this.fuerza = fuerza;
+    public void setInteligencia(int inteligencia) {
+        this.inteligencia = inteligencia;
     }
 
     @Override
     public String toString() {
-        return "Guerrero{" + "nombre=" + nombre + ", arma=" + arma + ", ataque=" + ataque + ", vida=" + vida + ", fuerza=" + fuerza + '}';
+        return "Mago{" + "nombre=" + nombre + ", arma=" + arma + ", ataque=" + ataque + ", vida=" + vida + ", inteligencia=" + inteligencia + '}';
     }
     
-    
- 
 }

@@ -1,13 +1,13 @@
 package Videojuego;
 
-public class Guerrero {
+public class Curandero {
     private String nombre;
     private Arma arma;
     private int ataque;
     private int vida;
-    private int fuerza = 15;
+    private int sabiduria = 15;
 
-    public Guerrero(String nombre, Arma arma, int ataque, int vida) {
+    public Curandero(String nombre, Arma arma, int ataque, int vida) {
         this.nombre = nombre;
         this.arma = arma;
         this.ataque = ataque;
@@ -18,6 +18,10 @@ public class Guerrero {
         System.out.println("Esta atacando " + nombre + "!!");
         arma.usar();
     }
+    
+    /*if (arma != Rezo){
+        sabiduria = 0;
+    }*/
 
     public String getNombre() {
         return nombre;
@@ -47,23 +51,21 @@ public class Guerrero {
         return vida;
     }
 
-    public void setVida(int vida) {
-        this.vida = vida;
+    public void setVida(int puntosVida) {
+        this.vida = puntosVida;
     }
 
-    public int getFuerza() {
-        return fuerza;
+    public int getSabiduria() {
+        return sabiduria;
     }
 
-    public void setFuerza(int fuerza) {
-        this.fuerza = fuerza;
+    public void setSabiduria(int sabiduria) {
+        this.sabiduria = sabiduria;
     }
 
     @Override
     public String toString() {
-        return "Guerrero{" + "nombre=" + nombre + ", arma=" + arma + ", ataque=" + ataque + ", vida=" + vida + ", fuerza=" + fuerza + '}';
+        return "Curandero{" + "nombre=" + nombre + ", arma=" + arma + ", ataque=" + ataque + ", vida=" + vida + ", sabiduria=" + sabiduria + '}';
     }
     
-    
- 
 }
